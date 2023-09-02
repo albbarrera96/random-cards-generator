@@ -21,7 +21,6 @@ const p2 = [];
 const p3 = [];
 const p4 = [];
 
-
 function getCards(player) {
     for (let i = 0; i < 7; i++) {
         let random_value = getRandomValueFromArray(deck);
@@ -39,8 +38,3 @@ getCards(p1);
 getCards(p2);
 getCards(p3);
 getCards(p4);
-
-
-
-
-
