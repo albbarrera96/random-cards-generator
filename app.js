@@ -21,8 +21,8 @@ const p2 = [];
 const p3 = [];
 const p4 = [];
 
-function getCards(player) {
-    for (let i = 0; i < 7; i++) {
+function getCards(player, n) {
+    for (let i = 0; i < n; i++) {
         let random_value = getRandomValueFromArray(deck);
         if (player.includes(random_value)) {
             i--;
@@ -34,7 +34,7 @@ function getCards(player) {
     console.log(player);
 };
 
-getCards(p1);
-getCards(p2);
-getCards(p3);
-getCards(p4);
+getCards(p1,7);
+getCards(p2,7);
+getCards(p3,7);
+getCards(p4,7);
